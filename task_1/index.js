@@ -5,9 +5,6 @@ console.log(encoded, translations)
 
 
 
-// const mappedData = data.map (item => {
-// const mappeditem ={};
-
 let mappedData = encoded.reduce((acc, item) => {
 let mappedItem= {};
 for (let key in item){
